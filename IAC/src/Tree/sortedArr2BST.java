@@ -1,7 +1,5 @@
 package Tree;
 
-import java.util.ArrayList;
-
 public class sortedArr2BST {
 	public TreeNode generate(int array[]) {
 		return createMinimalBST(array, 0, array.length-1);
