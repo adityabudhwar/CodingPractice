@@ -73,8 +73,10 @@ public class inorderSuccessor {
 	    }
 	    return null;
 	}
-	
-		Stack<TreeNode> stack; 
+
+	// TODO practice
+	/*
+		Stack<TreeNode> stack;
 		public void BSTIterator(TreeNode root) {
 			stack = new Stack<TreeNode>();
 			while(root!=null) {
@@ -82,11 +84,11 @@ public class inorderSuccessor {
 				root=root.left;
 			}
 		}
-		
+
 		public boolean hasNext() {
 			return !stack.isEmpty();
 		}
-		
+
 		public int next() {
 			TreeNode node = stack.pop();
 			int result = node.val;
@@ -99,6 +101,7 @@ public class inorderSuccessor {
 			}
 			return result;
 		}
+	 */
 	
 }
 

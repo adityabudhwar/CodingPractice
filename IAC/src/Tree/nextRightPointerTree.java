@@ -19,13 +19,13 @@ public class nextRightPointerTree {
 			Integer depth = depthQueue.poll();
 			
 			if(depthQueue.isEmpty()) {
-				node.next=null;
+				node.right=null;
 			}
 			else if(depth < depthQueue.peek()) {
-				node.next=null;
+				node.right=null;
 			}
 			else {
-				node.next = nodeQueue.peek();
+				node.right = nodeQueue.peek();
 			}
 			
 			if(node.left != null) {

@@ -2,7 +2,7 @@ package Tree;
 
 import java.util.HashMap;
 
-public class TrieNode{
+class TrieNode{
 	char c;
 	HashMap<Character, TrieNode> children = new HashMap<Character,TrieNode>();
 	boolean isLeaf;
